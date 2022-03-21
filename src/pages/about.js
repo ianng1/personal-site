@@ -17,22 +17,23 @@ const AboutPage = ({
       <div className="blog-post-container">
         <article className="post">
           
-          {!frontmatter.thumbnail && (
+          {/*!frontmatter.thumbnail &&*/ (
             <div className="post-thumbnail">
               <h1 className="post-title">About Me</h1>
               <div className="post-meta">Yee</div>
             </div>
           )}
-          {!!frontmatter.thumbnail && (
-            <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
+          {/*!!frontmatter.thumbnail && */(
+            <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`}}>
               <h1 className="post-title">POST title 2</h1>
               <div className="post-meta">POST date 2</div>
             </div>
           )}
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <div className="blog-post-content">
+
+              Hi! I'm Ian!
+          </div>
+
         </article>
       </div>
     </Layout>

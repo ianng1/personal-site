@@ -84,6 +84,13 @@ const AboutPage = ({
                 more branches in the future.
               </p>             
               
+              <h2>What else do I do apart from CS?</h2>
+              <p>
+                These past few quarters (since college began, really) I've been pretty engrossed in CS. However, I'm planning to change that this quarter. I'm classically trained in piano and have played for the past 15 years; this quarter,
+                I'm hoping to join a quartet on campus and return to practicing regularly; I'm also planning on relearning the violin and practicing to join Stanford Symphony Orchestra in the fall. In the same theme, I enjoy composing on an amateur level (you can see some of my compositions/arrangements <a href="ian-ng.netlify.app">here</a>), so 
+                I'm going to take a class in composition this quarter. Apart from that, I've always wanted to do a podcast; I'm planning to join the Stanford Daily team and either write or do a podcast for them. Another hobby of mine is playing around in the makerspace- I've gotten certified to use the laser cutter, and I'm going to get cleared
+                for the 3-D printer next.
+              </p>
           </div>
 
         </article>

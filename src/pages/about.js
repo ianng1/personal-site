@@ -17,8 +17,8 @@ const AboutPage = ({
       <div className="blog-post-container">
         <article className="post">
           {/*!!frontmatter.thumbnail && */(
-            <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`}}>
-              <h1 className="post-title">More about me</h1>
+            <div className="post-thumbnail" style={{backgroundImage: `url('/assets/about_page.png')`}}>
+              <h1 className="post-title">About Me</h1>
               <div className="post-meta">Last updated: March 21, 2022</div>
             </div>
           )}
@@ -51,7 +51,7 @@ const AboutPage = ({
               
               <p>
               Finally and maybe most importantly, I just like building cool things. You can't look at Boston Dynamics' lovable robot dog, Spot, or their <a href="https://www.youtube.com/watch?v=tF4DML7FIWk">humanoid robot that does parkour</a>, without a sense of awe
-              that technology's advanced so far. One of my UC application essays was about how I used to watch science fiction movies as a kid- Iron Man, the Matrix, etc. - and be fascinated by the holograms, robots, and more. A lot of them used to be just
+              that technology's advanced so far. One of my UC application essays was about how I used to watch science fiction movies as a kid- Iron Man, the Matrix, etc. - and be fascinated by the holograms, robots, and more. A lot of that used to be just
               science fiction. And now they exist. And I can help build them. That's just awesome.
               </p>
               

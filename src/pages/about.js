@@ -24,8 +24,9 @@ const AboutPage = ({
           )}
           <div className="blog-post-content">
               <h2>Who am I?</h2>
+              <p>
               I'm Ian, a current sophomore at Stanford University, where I'm studying computer science. I was born and raised in Folsom, California, a small suburb of Sacramento. 
-
+              </p>
               <h2>Why computer science?</h2>
               <p>
               I first got into CS as a junior in high school. Up until that point, I'd wanted to be an astrophysicist (and I still think that's awesome), but eventually I decided to try out CS
@@ -53,6 +54,36 @@ const AboutPage = ({
               that technology's advanced so far. One of my UC application essays was about how I used to watch science fiction movies as a kid- Iron Man, the Matrix, etc. - and be fascinated by the holograms, robots, and more. A lot of them used to be just
               science fiction. And now they exist. And I can help build them. That's just awesome.
               </p>
+              
+              <h2>What CS work have I done in the past?</h2>
+              <p>
+                Stanford CS classes often assign end-of-term class projects. I've done four so far, all of which can be found on my home page. They range from utilizing a suite of machine learning/statistical analysis techniques to determine a patient's risk of Alzheimers' disease
+                to developing algorithms to correct inconsistencies in large language model factual beliefs. 
+              </p>
+              <p>
+                Apart from my class curriculum, I've worked at Amazon as a software developemnt engineer over summer 2021, where I helped develop internal tools to reclassify objects in Amazon's database and expedite the process of rectifying misclassifications for full-time engineers.
+                I also spent a quarter working for the Stanford Molecular Imaging Instrumentation Laboratory (MIIL) under Prof. Craig Levin, where I used generative adversarial networks (GANs) to help denoise PET scans. More on my work can be seen
+                <a href="ian-ng.netlify.app/about"> here</a>.
+              </p>
+
+              <h2>What am I doing this quarter?</h2>
+              <p>
+                After an exhausting winter quarter (see <a href="ian-ng.netlify.app/about">here</a> for more), I'm going to take it a little easier this quarter. I'm going to be taking Convolutional Neural Networks for Visual Recognition with Fei-Fei Li, and I'm trying out
+                robotics through a class and hopefully through Stanford's robotics club.
+              </p>
+              <p>
+                In addition to that, I'm going to be conducting natural language processing research under Ph.D. student <a href="https://tiiiger.github.io/">Tianyi Zhang</a> as part of the Stanford NLP Group. We're going to be studying long-range consistency in large language
+                models and how we can improve it. Interestingly enough, the underlying idea is related to the project I pursued in CS 224N (Natural Language Processing with Deep Learning), albeit with different specific use cases and most likely different approaches as well.
+              </p>
+
+              <h2>What's coming up/what am I going to explore in the future?</h2>
+              <p>
+                I'm excited to announce that I'll be interning at Amazon Inc. as a software development intern for the second year in a row! I'll be moving to Seattle this summer to work in their office (which looks really cool.) Apart from that, I'm not really sure!
+                Depending on how my NLP project progresses, I may be pursuing that over the summer as well; I'll certainly be seeing it through into the fall and possibly beyond; the goal is to have a publishable paper by early next academic school year. I'd also
+                love to get into the robotics field, or even biocomputation (a lot of my friends have convinced me that it's very interesting). Ultimately, I'm not entirely sure what subfields of computer science I find the most engaging. I'll almost certainly be taking my time to explore
+                more branches in the future.
+              </p>             
+              
           </div>
 
         </article>

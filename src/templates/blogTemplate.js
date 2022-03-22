@@ -13,7 +13,6 @@ export default function Template({
     <Layout>
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
-        <subtitle>{frontmatter.subtitle} | {siteMetadata.title}</subtitle>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
@@ -22,14 +21,14 @@ export default function Template({
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
-              <h2 className="post-title">{frontmatter.subtitle}</h2>
+              <div className="post-subtitle">{frontmatter.subtitle}</div>
               <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
           {!!frontmatter.thumbnail && (
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
               <h1 className="post-title">{frontmatter.title}</h1>
-              <h2 className="post-title">{frontmatter.subtitle}</h2>
+              <div className="post-subtitle">{frontmatter.subtitle}</div>
               <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}

@@ -30,7 +30,7 @@ const AboutPage = ({
               <h2>Why computer science?</h2>
               <p>
               I first got into CS as a junior in high school. Up until that point, I'd wanted to be an astrophysicist (and I still think that's awesome), but eventually I decided to try out CS
-              through a science fair that fed into Intel's International Science and Engineering Fair. I remember distinctly watching Fei-Fei Li's <a href="https://www.youtube.com/watch?v=40riCqvRoMs"> TED Talk on computer vision</a>
+              through a science fair that fed into Intel's International Science and Engineering Fair. I distinctly remember watching Fei-Fei Li's <a href="https://www.youtube.com/watch?v=40riCqvRoMs"> TED Talk on computer vision </a>
               and being totally engrossed. From there, I tried out basic computer vision models and algorithmic programming (USA Computing Olympiad), plus a software engineering internship at Hewlett-Packard Enterprise, and now I'm
               here at Stanford studying machine learning, which I hope to do as a career.
               </p>
